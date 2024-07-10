@@ -20,7 +20,6 @@
 }
 .banner-icon{
     margin-top: 26px;
-   
 }
 .banner-title{
     color: rgb(13, 19, 33);
@@ -40,7 +39,7 @@ text-align: center;
 margin-top: 10px;
 }
 .contact-me{
-    color: rgb(255, 255, 255);
+    
     font-family: Azeret Mono;
     font-size: 12px;
     font-weight:500;
@@ -131,8 +130,6 @@ cursor: pointer;
     background: linear-gradient(90.00deg, rgb(255, 255, 255)
     ,rgba(255, 255, 255, 0) 100%);
     margin-top: 30px;   
-
-
 }
 .modern-title{
     color: rgba(13, 19, 33, 0.7);
@@ -142,8 +139,7 @@ cursor: pointer;
     text-align: left;
     margin-bottom: 15px;
     word-spacing: -2px;
-   
-}
+   }
 .modern-description{
     color: rgb(13, 19, 33);
     font-family: Azeret Mono;
@@ -205,32 +201,21 @@ cursor: pointer;
     font-weight: 400;
     font-family: Azeret Mono;
     font-size: 13px;
-
 }
 /* video-part style */
-.video-banner{
-    box-sizing: border-box;
-    border: 2px solid rgba(13, 19, 33, 0.03);
-    border-radius: 18px;
-
-    
-
-}
-
 .video-part{
     width: 600px;
     height: 380px;
-    margin: 0 auto;
+    
+    margin-top: 200px;
 }
 .video-part iframe{
     margin-top: 30px;
     width: 800px;
     height: 315px;
     box-sizing: border-box;
-    border: 1px solid red;
-    border-radius: 16px;
-    margin-right: 100px;
-
+border: 1px solid rgba(13, 19, 33, 0.2);
+border-radius: 16px;
 }
 
 /* my-target-style */
@@ -261,8 +246,6 @@ cursor: pointer;
     align-items:center;
     margin-top:40px ;
     gap: 30px;
-    
-
 }
 .terget-html{
     border-radius: 12px;
@@ -331,8 +314,6 @@ font-family: Azeret Mono;
 font-size:28px;
 font-weight: 700;
 padding-top: 40px;
-
-
 }
 .support-description{
     color: rgb(255, 255, 255);
@@ -376,7 +357,7 @@ font-weight: 400;
 cursor: pointer;
 }
 /* footer area style */
-.footer-container{
+#footer-container{
     margin-top: 80px;
     border-radius: 16px;
     background: rgba(13, 19, 33, 0.03);
