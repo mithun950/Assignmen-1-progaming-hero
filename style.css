@@ -5,7 +5,7 @@
 }
 /* banner-style */
 .banner{
-    background-image: url(../assets/Hero-bg.png);
+    background-image: url(./assets/Hero-bg.png);
     max-width: 1260px;
     height:500px;
     
@@ -212,15 +212,25 @@ cursor: pointer;
     box-sizing: border-box;
     border: 2px solid rgba(13, 19, 33, 0.03);
     border-radius: 18px;
-    padding-top: 30px;
-    padding-bottom: 40px;
+
+    
 
 }
 
 .video-part{
-    width: 1100px;
-    height: 500px;
+    width: 600px;
+    height: 380px;
     margin: 0 auto;
+}
+.video-part iframe{
+    margin-top: 30px;
+    width: 800px;
+    height: 315px;
+    box-sizing: border-box;
+    border: 1px solid red;
+    border-radius: 16px;
+    margin-right: 100px;
+
 }
 
 /* my-target-style */
@@ -302,7 +312,7 @@ cursor: pointer;
 }
 /* support style */
 .support{
-    background-image: url("../assets/handshake.jpg");
+    background-image: url("./assets/handshake.jpg");
     width: 1040px;
     height: 300px;
    margin-top: 100px;
