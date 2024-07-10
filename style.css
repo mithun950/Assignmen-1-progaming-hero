@@ -182,7 +182,7 @@ cursor: pointer;
 
 /* inspiration-section */
 .inspiration-container{
-  border: 2px solid black; 
+ 
   height: 600px;
   width: 900px;
   padding-top: 50px;
@@ -206,19 +206,22 @@ cursor: pointer;
 .video-part{
     width: 600px;
     height: 380px;
-    
-    margin-top: 200px;
+    margin-left: 40px;
 }
 .video-part iframe{
     margin-top: 30px;
     width: 800px;
-    height: 315px;
+    height: 445px;
+    margin-top: 60px;
     box-sizing: border-box;
 border: 1px solid rgba(13, 19, 33, 0.2);
 border-radius: 16px;
 }
 
 /* my-target-style */
+.target{
+    margin-top: ;
+}
 .target-title{
     color: rgb(13, 19, 33);
     font-family: Azeret Mono;
